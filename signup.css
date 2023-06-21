@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+    font-family:'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+.container::before{
+    content: "";
+    background: url(netflix.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.container .navbar{
+    height: 100px;
+    display: flex;
+}
+.container .navbar .left{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+.container .navbar .left img{
+    height: 100%;
+    display: flex;
+}
+.container .navbar .right{
+    display: flex;
+    height: 50%;
+    float: right;
+    position: absolute;
+    right: 50px;
+    margin-top: -140px;
+}
+.container .navbar .right .lang{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.container .navbar .right .lang option{
+    background-color: gray;
+}
+.container .navbar .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding:  7px 10px;
+    font-weight: 400;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.container .navbar .right button a{
+    color: white;
+    text-decoration: none;
+}
+.container .heading{
+    padding: 70px 45px;
+}
+.container .heading .content{
+    width: 950px;
+    margin: auto;
+    padding: 75px 0px;
+    text-align: center;
+}
+.container .heading .content h1{
+    width: 900px;
+    margin: auto;
+    font-size: 45px;
+    text-align: center;
+}
+.container .heading .content h2{
+    width: 650px;
+    margin: auto;
+    font-size: x-large;
+    text-align: center;
+}
+.container .heading .content h3{
+    font-size: 20px;
+    text-align: center;
+}
+.container .heading .content form .mail{
+ margin: auto;
+ width: 1000px;
+}
+.container .heading .content form .mail input{
+   margin: auto;
+   width: 400px;
+   height: 60px;
+   background-color: #3333;
+   font-size: 19px;
+   color: white;
+}
+.container .heading .content form .mail button{
+    background-color: red;
+    color: white;
+    margin: auto;
+    height: 60px;
+    width: 160px;
+    align-items: center;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 7px 17px;
+    outline: none;
+    border-radius: 8px;
+
+}
+.container .heading .content form .mail button a{
+    text-decoration: none;
+    color: white;
+}
+
